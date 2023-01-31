@@ -1,0 +1,113 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'DivFreq:freq|OUT'
+Slack : -192.214
+TNS   : -6475.325
+
+Type  : Slow 1200mV 85C Model Setup 'datapath:data|reduz[1]'
+Slack : -188.475
+TNS   : -389609.867
+
+Type  : Slow 1200mV 85C Model Setup 'clk1'
+Slack : -2.794
+TNS   : -29.105
+
+Type  : Slow 1200mV 85C Model Hold 'DivFreq:freq|OUT'
+Slack : -3.085
+TNS   : -3.085
+
+Type  : Slow 1200mV 85C Model Hold 'clk1'
+Slack : 0.427
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'datapath:data|reduz[1]'
+Slack : 0.692
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk1'
+Slack : -3.000
+TNS   : -29.985
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'datapath:data|reduz[1]'
+Slack : -2.693
+TNS   : -2799.413
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'DivFreq:freq|OUT'
+Slack : -2.693
+TNS   : -78.877
+
+Type  : Slow 1200mV 0C Model Setup 'DivFreq:freq|OUT'
+Slack : -174.894
+TNS   : -5889.882
+
+Type  : Slow 1200mV 0C Model Setup 'datapath:data|reduz[1]'
+Slack : -171.507
+TNS   : -354511.734
+
+Type  : Slow 1200mV 0C Model Setup 'clk1'
+Slack : -2.480
+TNS   : -23.954
+
+Type  : Slow 1200mV 0C Model Hold 'DivFreq:freq|OUT'
+Slack : -2.797
+TNS   : -2.797
+
+Type  : Slow 1200mV 0C Model Hold 'clk1'
+Slack : 0.386
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'datapath:data|reduz[1]'
+Slack : 0.654
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk1'
+Slack : -3.000
+TNS   : -29.985
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'datapath:data|reduz[1]'
+Slack : -2.649
+TNS   : -2798.709
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'DivFreq:freq|OUT'
+Slack : -2.649
+TNS   : -78.701
+
+Type  : Fast 1200mV 0C Model Setup 'DivFreq:freq|OUT'
+Slack : -96.038
+TNS   : -3228.027
+
+Type  : Fast 1200mV 0C Model Setup 'datapath:data|reduz[1]'
+Slack : -94.013
+TNS   : -194419.775
+
+Type  : Fast 1200mV 0C Model Setup 'clk1'
+Slack : -0.944
+TNS   : -4.470
+
+Type  : Fast 1200mV 0C Model Hold 'DivFreq:freq|OUT'
+Slack : -1.630
+TNS   : -1.630
+
+Type  : Fast 1200mV 0C Model Hold 'clk1'
+Slack : 0.192
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'datapath:data|reduz[1]'
+Slack : 0.303
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk1'
+Slack : -3.000
+TNS   : -25.292
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'datapath:data|reduz[1]'
+Slack : -1.000
+TNS   : -2161.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'DivFreq:freq|OUT'
+Slack : -1.000
+TNS   : -57.000
+
+------------------------------------------------------------

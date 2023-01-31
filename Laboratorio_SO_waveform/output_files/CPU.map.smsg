@@ -1,0 +1,2 @@
+Info (10281): Verilog HDL Declaration information at CPU.v(330): object "So_acess" differs only in case from object "so_acess" in the same scope File: /home/leoenne/Documentos/Lab_computacao_SO/Laboratorio_SO_1/CPU.v Line: 330
+Warning (10268): Verilog HDL information at Registradores.v(28): always construct contains both blocking and non-blocking assignments File: /home/leoenne/Documentos/Lab_computacao_SO/Laboratorio_SO_1/Registradores.v Line: 28

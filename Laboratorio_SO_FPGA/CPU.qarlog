@@ -1,0 +1,23 @@
+Quartus Prime Archive log --	/home/leoenne/Documentos/Lab_computacao_SO/Laboratorio_SO_AlteraFinal/CPU.qarlog
+
+Archive:	/home/leoenne/Documentos/Lab_computacao_SO/Laboratorio_SO_AlteraFinal/CPU.qar
+Date:		Mon Jan 23 23:42:03 2023
+Quartus Prime		19.1.0 Build 670 09/22/2019 SJ Lite Edition
+
+	=========== Files Selected: ===========
+/home/leoenne/Documentos/Lab_computacao_SO/Laboratorio_SO_AlteraFinal/CPU.qpf
+/home/leoenne/Documentos/Lab_computacao_SO/Laboratorio_SO_AlteraFinal/CPU.qsf
+/home/leoenne/Documentos/Lab_computacao_SO/Laboratorio_SO_AlteraFinal/CPU.v
+/home/leoenne/Documentos/Lab_computacao_SO/Laboratorio_SO_AlteraFinal/DivFreq.v
+/home/leoenne/Documentos/Lab_computacao_SO/Laboratorio_SO_AlteraFinal/Extensores.v
+/home/leoenne/Documentos/Lab_computacao_SO/Laboratorio_SO_AlteraFinal/Quantum.v
+/home/leoenne/Documentos/Lab_computacao_SO/Laboratorio_SO_AlteraFinal/Registradores.v
+/home/leoenne/Documentos/Lab_computacao_SO/Laboratorio_SO_AlteraFinal/SaidaDadosPC.v
+/home/leoenne/Documentos/Lab_computacao_SO/Laboratorio_SO_AlteraFinal/Saidadata.v
+/home/leoenne/Documentos/Lab_computacao_SO/Laboratorio_SO_AlteraFinal/Unidade_controle.v
+/home/leoenne/Documentos/Lab_computacao_SO/Laboratorio_SO_AlteraFinal/instrucao.txt
+/home/leoenne/intelFPGA_lite/19.1/quartus/linux64/assignment_defaults.qdf
+	======= Total: 12 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

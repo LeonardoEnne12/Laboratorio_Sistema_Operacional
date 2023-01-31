@@ -1,0 +1,263 @@
+0 ADDI, $sp, $zero, 0
+1 J, main
+. main
+2 ADDI, $t0, $zero, 0
+3 ADD, $t0, $t0, $sp
+4 LOAD, $t1, $t0, 3
+5 ADDI, $t2, $zero, 260 
+6 ADD, $t1, $t2, $zero
+7 ADD, $t0, $t0, $sp
+8 STORE, $t1, $t0, 3
+9 ADDI, $t3, $zero, 1
+10 ADD, $t3, $t3, $sp
+11 LOAD, $t4, $t3, 3
+12 ADDI, $t5, $zero, 335 
+13 ADD, $t4, $t5, $zero
+14 ADD, $t3, $t3, $sp
+15 STORE, $t4, $t3, 3
+16 ADDI, $t6, $zero, 2
+17 ADD, $t6, $t6, $sp
+18 LOAD, $t7, $t6, 3
+19 ADDI, $t8, $zero, 370 
+20 ADD, $t7, $t8, $zero
+21 ADD, $t6, $t6, $sp
+22 STORE, $t7, $t6, 3
+23 ADDI, $t9, $zero, 0
+24 ADD, $t9, $t9, $sp
+25 LOAD, $t10, $t9, 6
+26 ADDI, $t11, $zero, 100 
+27 ADD, $t10, $t11, $zero
+28 ADD, $t9, $t9, $sp
+29 STORE, $t10, $t9, 6
+30 ADDI, $t12, $zero, 1
+31 ADD, $t12, $t12, $sp
+32 LOAD, $t13, $t12, 6
+33 ADDI, $t14, $zero, 130 
+34 ADD, $t13, $t14, $zero
+35 ADD, $t12, $t12, $sp
+36 STORE, $t13, $t12, 6
+37 ADDI, $t15, $zero, 2
+38 ADD, $t15, $t15, $sp
+39 LOAD, $t16, $t15, 6
+40 ADDI, $t0, $zero, 160 
+41 ADD, $t16, $t0, $zero
+42 ADD, $t15, $t15, $sp
+43 STORE, $t16, $t15, 6
+. L0
+44 ADDI, $t1, $zero, 1
+45 BEQ, $t1, $zero, L1
+46 LOAD, $t2, $sp, 9
+47 IN, $t3
+48 ADD, $t2, $t3, $zero
+49 STORE, $t2, $sp, 9
+50 LOAD, $t4, $sp, 9
+51 ADDI, $t5, $zero, 1
+52 BNEQ, $t4, $t5, L2
+53 ADDI, $t7, $zero, 0
+54 ADD, $t7, $t7, $sp
+55 LOAD, $t8, $t7, 0
+56 IN, $t9
+57 ADD, $t8, $t9, $zero
+58 ADD, $t7, $t7, $sp
+59 STORE, $t8, $t7, 0
+60 ADDI, $t10, $zero, 1
+61 ADD, $t10, $t10, $sp
+62 LOAD, $t11, $t10, 0
+63 IN, $t12
+64 ADD, $t11, $t12, $zero
+65 ADD, $t10, $t10, $sp
+66 STORE, $t11, $t10, 0
+67 ADDI, $t13, $zero, 2
+68 ADD, $t13, $t13, $sp
+69 LOAD, $t14, $t13, 0
+70 IN, $t15
+71 ADD, $t14, $t15, $zero
+72 ADD, $t13, $t13, $sp
+73 STORE, $t14, $t13, 0
+74 LOAD, $t1, $sp, 3 
+75 LOAD, $t2, $sp, 4
+76 LOAD, $t3, $sp, 5
+77 LOAD, $t4, $sp, 6
+78 LOAD, $t5, $sp, 7
+79 LOAD, $t6, $sp, 8
+80 STORE, $t1, $t4, 0
+81 STORE, $t2, $t5, 0
+82 STORE, $t3, $t6, 0
+83 ADDI, $t1, $zero, 0
+84 ADDI, $t2, $zero, 1
+85 ADDI, $t3, $zero, 2
+86 LOAD, $t8, $t1, 0 
+87 BEQ, $t8, $zero, 188 
+88 BNEQ, $t1, $zero, 90
+89 ADDI, $t7, $t4, 0
+90 BNEQ, $t1, $t2, 92
+91 ADDI, $t7, $t5, 0
+92 BNEQ, $t1, $t3, 94
+93 ADDI, $t7, $t6, 0
+94 STORE, $t7, $zero, 70
+95 PROGREG
+96 LOAD, $a8, $zero, 70
+97 LOAD, $t0, $a8, 1
+98 LOAD, $t1, $a8, 2
+99 LOAD, $t2, $a8, 3
+100 LOAD, $t3, $a8, 4
+101 LOAD, $t4, $a8, 5
+102 LOAD, $t5, $a8, 6
+103 LOAD, $t6, $a8, 7
+104 LOAD, $t7, $a8, 8
+105 LOAD, $t8, $a8, 9
+106 LOAD, $t9, $a8, 10
+107 LOAD, $t10, $a8, 11
+108 LOAD, $t11, $a8, 12
+109 LOAD, $t12, $a8, 13
+110 LOAD, $t13, $a8, 14
+111 LOAD, $t14, $a8, 15
+112 LOAD, $t15, $a8, 16
+113 LOAD, $t16, $a8, 17
+114 LOAD, $a0, $a8, 18
+115 LOAD, $a1, $a8, 19
+116 LOAD, $a2, $a8, 20
+117 LOAD, $a3, $a8, 21
+118 LOAD, $a4, $a8, 22
+119 LOAD, $ad, $a8, 23
+120 LOAD, $v0, $a8, 24
+121 LOAD, $sp, $a8, 25
+122 LOAD, $md, $a8, 26
+123 LOAD, $ra, $a8, 27
+124 SOREG
+125 LOAD, $t9, $t7, 0
+126 JRSO, $t9 
+127 STOREPC, $zero, $t7, 0
+128 PROGREG
+129 LOAD, $a8, $zero, 70
+130 STORE, $t0, $a8, 1
+131 STORE, $t1, $a8, 2
+132 STORE, $t2, $a8, 3
+133 STORE, $t3, $a8, 4
+134 STORE, $t4, $a8, 5
+135 STORE, $t5, $a8, 6
+136 STORE, $t6, $a8, 7
+137 STORE, $t7, $a8, 8
+138 STORE, $t8, $a8, 9
+139 STORE, $t9, $a8, 10
+140 STORE, $t10, $a8, 11
+141 STORE, $t11, $a8, 12
+142 STORE, $t12, $a8, 13
+143 STORE, $t13, $a8, 14
+144 STORE, $t14, $a8, 15
+145 STORE, $t15, $a8, 16
+146 STORE, $t16, $a8, 17
+147 STORE, $a0, $a8, 18
+148 STORE, $a1, $a8, 19
+149 STORE, $a2, $a8, 20
+150 STORE, $a3, $a8, 21
+151 STORE, $a4, $a8, 22
+152 STORE, $ad, $a8, 23
+153 STORE, $v0, $a8, 24
+154 STORE, $sp, $a8, 25
+155 STORE, $md, $a8, 26
+156 STORE, $ra, $a8, 27
+157 SOREG
+158 ADDI, $t10, $zero, 329 
+159 ADDI, $t11, $zero, 366 
+160 ADDI, $t12, $zero, 423 
+161 BNEQ, $t1, $zero, 166 
+162 LOAD, $t13, $t7, 0
+163 SGET, $t14, $t13, $t10
+164 BNEQ, $t14, $t2, 176  
+165 STORE, $zero, $t1, 0
+166 BNEQ, $t1, $t2, 171 
+167 LOAD, $t13, $t7, 0
+168 SGET, $t14, $t13, $t11
+169 BNEQ, $t14, $t2, 176 
+170 STORE, $zero, $t1, 0
+171 BNEQ, $t1, $t3, 176
+172 LOAD, $t13, $t7, 0
+173 SGET, $t14, $t13, $t12
+174 BNEQ, $t14, $t2, 176 
+175 STORE, $zero, $t1, 0
+176 LOAD, $t10, $sp, 0
+177 LOAD, $t11, $sp, 1
+178 LOAD, $t12, $sp, 2
+179 SET, $t13, $t10, $zero
+180 SET, $t14, $t11, $zero
+181 SET, $t15, $t12, $zero
+182 ADDI, $t16, $zero, 0
+183 ADD, $t16, $t16, $t13
+184 ADD, $t16, $t16, $t14
+185 ADD, $t16, $t16, $t15
+186 ADDI, $a0, $zero, 3
+187 BEQ, $t16, $a0, L0
+188 BNEQ, $t1, $zero, 190 
+189 ADDI, $t16, $t1, 1
+190 BNEQ, $t1, $t2, 192
+191 ADDI, $t16, $t1, 1
+192 BNEQ, $t1, $t3, 194
+193 ADDI, $t16, $zero, 0
+194 ADDI, $t1, $t16, 0
+195 J, 86
+196 NOP
+197 NOP
+198 NOP
+199 NOP
+200 NOP
+201 NOP
+202 NOP
+203 NOP
+204 NOP
+205 NOP
+206 NOP
+207 NOP
+208 NOP
+209 NOP
+210 NOP
+211 NOP
+212 NOP
+213 NOP
+214 NOP
+215 NOP
+216 NOP
+217 NOP
+218 NOP
+219 NOP
+220 NOP
+221 NOP
+222 NOP
+223 NOP
+224 NOP
+225 NOP
+226 NOP
+227 NOP
+228 NOP
+229 NOP
+230 NOP
+231 NOP
+232 NOP
+233 NOP
+234 NOP
+235 NOP
+236 NOP
+237 NOP
+. L2
+238 LOAD, $t13, $sp, 9
+239 ADDI, $t14, $zero, 2
+240 BNEQ, $t13, $t14, L3
+241 LOAD, $t16, $sp, 11
+242 IN, $t0
+243 ADD, $t16, $t0, $zero
+244 STORE, $t16, $sp, 11
+245 LOAD, $t1, $sp, 11
+246 ADD, $a0, $t1, $zero
+247 OUT, $a0
+248 LOAD, $t3, $sp, 11
+249 ADD, $t3, $t3, $sp
+250 LOAD, $t4, $t3, 0
+251 ADDI, $t5, $zero, 2
+252 ADD, $t4, $t5, $zero
+253 ADD, $t3, $t3, $sp
+254 STORE, $t4, $t3, 0
+. L3
+255 J, L0
+. L1
+256 HLT
+257 HLT

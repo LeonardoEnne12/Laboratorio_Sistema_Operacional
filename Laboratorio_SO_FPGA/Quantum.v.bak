@@ -1,0 +1,27 @@
+module Quantum	(									
+	input PcNormal,
+	input clk,
+	output MudaRegbanco,
+	output definePC
+	);
+	
+	integer posicaoSo = 15;
+	integer counter = 0;
+
+	always @ (posedge clk) begin
+			
+			if(counter < 10)
+				begin
+					counter = counter + 1;
+					definePC = PcNextCode;
+				end
+			else
+				begin
+					counter = 0;
+					definePC = posicaoSo;
+				end
+	end
+	
+	
+	assign x = Q1 & Q2 & Q3 & Q4;
+endmodule

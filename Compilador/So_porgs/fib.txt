@@ -1,0 +1,76 @@
+0 ADDI, $sp, $zero, 200
+1 J, main
+. fibonacci
+2 STORE, $a0, $sp, 0
+3 LOAD, $t0, $sp, 1
+4 ADDI, $t1, $zero, 0
+5 ADD, $t0, $t1, $zero
+6 STORE, $t0, $sp, 1
+7 LOAD, $t2, $sp, 2
+8 ADDI, $t3, $zero, 1
+9 ADD, $t2, $t3, $zero
+10 STORE, $t2, $sp, 2
+11 LOAD, $t4, $sp, 4
+12 ADDI, $t5, $zero, 1
+13 ADD, $t4, $t5, $zero
+14 STORE, $t4, $sp, 4
+15 LOAD, $t6, $sp, 0
+16 ADDI, $t7, $zero, 0
+17 BNEQ, $t6, $t7, L0
+18 LOAD, $t9, $sp, 1
+19 ADD, $v0, $t9, $zero
+20 JR, $ra
+21 J, L1
+. L0
+22 LOAD, $t10, $sp, 3
+23 LOAD, $t11, $sp, 1
+24 LOAD, $t12, $sp, 2
+25 ADD, $t13, $t11, $t12
+26 ADD, $t10, $t13, $zero
+27 STORE, $t10, $sp, 3
+. L2
+28 LOAD, $t14, $sp, 4
+29 LOAD, $t15, $sp, 0
+30 SLT, $t16, $t14, $t15
+31 BEQ, $t16, $zero, L3
+32 LOAD, $t0, $sp, 1
+33 LOAD, $t1, $sp, 2
+34 ADD, $t0, $t1, $zero
+35 STORE, $t0, $sp, 1
+36 LOAD, $t2, $sp, 2
+37 LOAD, $t3, $sp, 3
+38 ADD, $t2, $t3, $zero
+39 STORE, $t2, $sp, 2
+40 LOAD, $t4, $sp, 3
+41 LOAD, $t5, $sp, 1
+42 LOAD, $t6, $sp, 2
+43 ADD, $t7, $t5, $t6
+44 ADD, $t4, $t7, $zero
+45 STORE, $t4, $sp, 3
+46 LOAD, $t8, $sp, 4
+47 LOAD, $t9, $sp, 4
+48 ADDI, $t10, $zero, 1
+49 ADD, $t11, $t9, $t10
+50 ADD, $t8, $t11, $zero
+51 STORE, $t8, $sp, 4
+52 J, L2
+. L3
+53 LOAD, $t12, $sp, 3
+54 ADD, $v0, $t12, $zero
+55 JR, $ra
+. L1
+56 JR, $ra
+. main
+57 LOAD, $t13, $sp, 0
+58 IN, $t14
+59 ADD, $t13, $t14, $zero
+60 STORE, $t13, $sp, 0
+61 LOAD, $t15, $sp, 0
+62 ADD, $a0, $t15, $zero
+63 ADDI, $sp, $sp, 1
+64 JAL, fibonacci
+65 SUBI, $sp, $sp, 1
+66 ADD, $t16, $v0, $zero
+67 ADD, $a0, $t16, $zero
+68 OUT, $a0
+69 HLT

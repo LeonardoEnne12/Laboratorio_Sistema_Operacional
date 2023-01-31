@@ -1,0 +1,253 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "Display1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Display1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Display1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Display1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Display1[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Display1[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Display1[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Display2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Display2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Display2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Display2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Display2[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Display2[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Display2[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Display3[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Display3[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Display3[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Display3[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Display3[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Display3[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Display3[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Display4[0]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDs[0]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDs[1]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDs[2]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDs[3]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDs[4]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDs[5]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDs[6]",
+					"strict" : false
+				},
+				{
+					"name" : "out_in_sign",
+					"strict" : false
+				},
+				{
+					"name" : "Display1PC[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Display1PC[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Display1PC[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Display1PC[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Display1PC[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Display1PC[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Display1PC[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Display2PC[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Display2PC[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Display2PC[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Display2PC[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Display2PC[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Display2PC[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Display2PC[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Display3PC[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Display3PC[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Display3PC[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Display3PC[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Display3PC[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Display3PC[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Display3PC[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Display4PC[0]",
+					"strict" : false
+				},
+				{
+					"name" : "instruIN[0]",
+					"strict" : false
+				},
+				{
+					"name" : "instruIN[1]",
+					"strict" : false
+				},
+				{
+					"name" : "instruIN[4]",
+					"strict" : false
+				},
+				{
+					"name" : "instruIN[3]",
+					"strict" : false
+				},
+				{
+					"name" : "instruIN[2]",
+					"strict" : false
+				},
+				{
+					"name" : "resetDis",
+					"strict" : false
+				},
+				{
+					"name" : "resetPC",
+					"strict" : false
+				},
+				{
+					"name" : "enter",
+					"strict" : false
+				},
+				{
+					"name" : "clk1",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

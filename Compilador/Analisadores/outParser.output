@@ -1,0 +1,28 @@
+Tipo: inteiro
+	Funcao: areaCircun
+		Tipo: inteiro
+			Parametro: a areaCircun 1
+		Tipo: inteiro
+			Variavel: x areaCircun 1 1
+		Atribuicao
+			ID: x
+			Operacao: Simbolo: *
+				ID: a
+				Constante: 3
+		Atribuicao
+			ID: x
+			Operacao: Simbolo: *
+				ID: x
+				ID: a
+		Return
+			ID: x
+	Tipo: void
+		Funcao: main
+			Tipo: inteiro
+				Variavel: raio main 1 1
+			Atribuicao
+				ID: raio
+				Chamada de Funcao: input 
+			Chamada de Funcao: output 
+				Chamada de Funcao: areaCircun 
+					ID: raio

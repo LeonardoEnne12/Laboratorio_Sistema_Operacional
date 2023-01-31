@@ -1,0 +1,34 @@
+0 ADDI, $sp, $zero, 0
+1 J, main
+. areaCircun
+2 STORE, $a0, $sp, 0
+3 LOAD, $t0, $sp, 1
+4 LOAD, $t1, $sp, 0
+5 ADDI, $t2, $zero, 3
+6 MUL, $t3, $t1, $t2
+7 ADD, $t0, $t3, $zero
+8 STORE, $t0, $sp, 1
+9 LOAD, $t4, $sp, 1
+10 LOAD, $t5, $sp, 1
+11 LOAD, $t6, $sp, 0
+12 MUL, $t7, $t5, $t6
+13 ADD, $t4, $t7, $zero
+14 STORE, $t4, $sp, 1
+15 LOAD, $t8, $sp, 1
+16 ADD, $v0, $t8, $zero
+17 JR, $ra
+18 JR, $ra
+. main
+19 LOAD, $t9, $sp, 0
+20 IN, $t10
+21 ADD, $t9, $t10, $zero
+22 STORE, $t9, $sp, 0
+23 LOAD, $t11, $sp, 0
+24 ADD, $a0, $t11, $zero
+25 ADDI, $sp, $sp, 1
+26 JAL, areaCircun
+27 SUBI, $sp, $sp, 1
+28 ADD, $t12, $v0, $zero
+29 ADD, $a0, $t12, $zero
+30 OUT, $a0
+31 HLT

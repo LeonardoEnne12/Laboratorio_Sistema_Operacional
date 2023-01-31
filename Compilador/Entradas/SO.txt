@@ -1,0 +1,94 @@
+ void main ( void ) {
+
+	int programas[3];
+	int PCinicio[3];
+	int MemLocal[3];
+	int tipoAcao;
+	int i;
+	int aux;	
+	
+	PCinicio[0] = 260;
+	PCinicio[1] = 335;
+	PCinicio[2] = 370;
+	
+	MemLocal[0] = 100;
+	MemLocal[1] = 130;
+	MemLocal[2] = 160;
+	
+	
+	
+	while (1){
+	
+		/* instrução de printf no LCD perguntando a ação a ser tomada
+		1- Rodar programa ou programas
+		2- Apagar programa
+		*/
+		
+		tipoAcao = input();
+		
+		if(tipoAcao == 1){
+		/* colocar 0 para não rodar e 1 para rodar */
+			
+			programas[0] = input();
+			programas[1] = input();
+			programas[2] = input(); 
+	
+				
+
+			i = 0;
+			i = 0;
+			i = 0;
+			i = 0;
+			i = 0;
+			i = 0;
+			i = 0;
+			i = 0;
+			i = 0;
+			i = 0;
+			i = 0;
+			i = 0;
+			i = 0;
+			i = 0;
+			i = 0;
+			i = 0;
+			i = 0;
+			i = 0;
+			i = 0;
+			i = 0;
+			i = 0;
+			i = 0;
+			i = 0;
+			i = 0;
+			i = 0;
+			i = 0;
+			i = 0;
+			i = 0;
+			i = 0;
+			i = 0;
+			i = 0;
+			i = 0;
+			i = 0;
+			i = 0;
+			i = 0;
+			i = 0;
+			i = 0;
+			i = 0;
+			i = 0;
+			i = 0;
+			i = 0;
+				
+		
+			
+		}
+		
+		if(tipoAcao == 2){
+			aux = input();
+			output(aux);
+			programas[aux] = 2;
+		}
+	
+	}
+
+	
+}
+ 
